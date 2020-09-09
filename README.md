@@ -1,3 +1,18 @@
+## TODO APP
+https://todo-app-78fdc.web.app/
+
+The purpose of this project: a private project I built to improve my coding skills
+
+Few points about this project:
+* Technology: React.js
+* State: hooks
+* Design: Material UI
+* FULL CRUD Functionality (Create, Read, Update, Delete)
+* Real time database - firebase
+* Deployed: firebase
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
