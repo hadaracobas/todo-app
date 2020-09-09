@@ -1,0 +1,51 @@
+.deleteIcon {
+  cursor: pointer;
+  color: white;
+}
+
+.editIcon {
+  cursor: pointer;
+  color: white;
+}
+
+.todo__list {
+  margin-top: 25px !important;
+  /*border: 1px solid black;*/
+  background-color: #3a0ca3;
+  position: relative;
+  box-shadow: 1px 2px lightgray;
+  text-align: left;
+}
+
+.todo__iconsContainer {
+  /*text-align: left;*/
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+}
+
+.todo__iconsContainer svg {
+  margin-right: 10px;
+}
+
+.MuiListItemText-primary {
+  color: white;
+}
+
+.MuiListItemText-secondary {
+  color: lightgray !important;
+}
+
+.todo__listNum {
+  color: white;
+  margin-left: 10px;
+  font-size: smaller;
+}
+
+@media (min-width: 760px) {
+  .todo__list {
+    max-width: 70%;
+    margin: 40px auto 20px !important;
+  }
+}

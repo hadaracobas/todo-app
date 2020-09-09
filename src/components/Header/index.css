@@ -1,0 +1,26 @@
+.header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(58, 12, 163, 1) 45%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
+  position: fixed;
+  top: 0;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__leftContainer,
+.header__rightContainer {
+  margin: 10px 10px;
+}
+
+.header__leftContainer h2,
+.header__rightContainer h2 {
+  color: white;
+  font-size: smaller;
+}
